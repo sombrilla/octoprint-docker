@@ -14,7 +14,7 @@ services:
       - octoprint:/octoprint
     # uncomment the lines below to ensure camera streaming is enabled when
     # you add a video device
-    #environment:
+    environment:
       - ENABLE_MJPG_STREAMER=true
   
   ####
