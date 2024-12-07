@@ -6,6 +6,7 @@ services:
     restart: unless-stopped
     ports:
       - 5000:5000
+      - 8080:8080
     devices:
     # use `python -m serial.tools.miniterm` to see what the name is of the printer, this requires pyserial
       - /dev/ttyACM0:/dev/ttyACM0
